@@ -66,3 +66,18 @@
 {
   letter-spacing: 6px;
 }
+
+@media (max-width: 991px){
+
+  header, header.sticky
+  {
+    padding: 10px 20px;
+    background: #282b30
+  }
+
+  section 
+  {
+    padding: 20px;
+  }
+
+}
