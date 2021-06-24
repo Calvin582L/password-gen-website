@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.banner{
+  background-color: #282b30;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner .content
+{
+  max-width: 900px;
+  text-align: center;
+}
+
+.banner .content h1
+{
+  font-size: 3em;
+  color: #FFFFFF;
+}
+
+.banner .content h2
+{
+  font-size: 3.5em;
+  color: #F30808;
+}
+
+.banner .content h3
+{
+  font-size: 1.5em;
+  color: #FFFFFF;
+}
+
+.banner .content h3 strong
+{
+  font-size: 1.5em;
+  color: #F30808;
+}
+
+.btn
+{
+  font-size: 1.5em;
+  color: #fff;
+  background: #F30808;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+
+.btn:hover
+{
+  letter-spacing: 6px;
+}
