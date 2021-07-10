@@ -29,7 +29,7 @@ document.getElementById("myButton").onclick = function(){
   }
   console.log(password.join(""));
   password = password.join("");
-  document.getElementById('pw').innerHTML = "Your password: " + password;
+  document.getElementById('pw').innerHTML = password;
   if (password == ""){
     document.getElementById('pw').innerHTML = "Enter a valid number!";
   }
