@@ -30,6 +30,11 @@
   color: #FFFFFF;
 }
 
+.banner .content label
+{
+  color: #FFFFFF;
+}
+
 .banner .content h2
 {
   font-size: 3.5em;
@@ -48,7 +53,7 @@
   color: #F30808;
 }
 
-.btn
+.banner .content button
 {
   font-size: 1.5em;
   color: #fff;
@@ -62,9 +67,32 @@
   transition: 0.5s;
 }
 
-.btn:hover
+.banner .content button:hover
 {
   letter-spacing: 6px;
+}
+
+.banner .content label
+{
+  font-size: 1.4em;
+}
+
+.banner .content input
+{
+  width:25%;
+  border:2px solid #aaa;
+  border-radius:4px;
+  margin:8px 0;
+  outline:none;
+  padding:8px;
+  box-sizing:border-box;
+  transition:.3s;
+}
+
+.banner .content input:focus
+{
+  border-color:#F30808;
+  box-shadow:0 0 8px 0 #F30808;
 }
 
 @media (max-width: 991px){
